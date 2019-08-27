@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "tsc": "lerna run tsc",
     "build": "webpack"
   },
   "devDependencies": {

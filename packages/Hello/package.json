@@ -1,7 +1,10 @@
 {
   "name": "hello-typescript-react",
   "version": "0.0.1",
-  "main": "index.tsx",
+  "main": "lib/index.js",
   "license": "MIT",
-  "gitHead": "4874514e1688dd45cf9ba8d87ca1c2638126d6c6"
+  "gitHead": "4874514e1688dd45cf9ba8d87ca1c2638126d6c6",
+  "scripts": {
+    "tsc": "tsc"
+  }
 }

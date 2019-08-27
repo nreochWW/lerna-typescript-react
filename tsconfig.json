@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "removeComments": true,
     "target": "es6",
     "jsx": "react"
-  }
+  },
+  "exclude": ["node_modules"]
 }
