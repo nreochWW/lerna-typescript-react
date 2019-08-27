@@ -1,12 +1,13 @@
+const path = require("path");
+
 module.exports = {
   mode: "production",
   entry: {
-    hello: "./packages/Hello/index.tsx",
-    world: "./packages/World/index.tsx"
+    world: path.join(__dirname, "src", "index.tsx")
   },
   output: {
     filename: "[name].js",
-    path: __dirname + "/dist"
+    path: path.join(__dirname, "./dist")
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"]
