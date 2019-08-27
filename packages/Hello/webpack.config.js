@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   mode: "production",
   entry: {
-    hello: path.join(__dirname, "src", "index.tsx")
+    hello: path.join(__dirname, "legacy", "index.tsx")
   },
   output: {
     filename: "[name].js",

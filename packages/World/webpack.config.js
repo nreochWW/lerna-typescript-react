@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   mode: "production",
   entry: {
-    world: path.join(__dirname, "src", "index.tsx")
+    world: path.join(__dirname, "legacy", "index.tsx")
   },
   output: {
     filename: "[name].js",

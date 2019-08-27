@@ -1,5 +1,4 @@
 src/
 dist/
-README.md
 tsconfig.json
 webpack.config.js
