@@ -6,7 +6,7 @@ export interface WorldProps {
 }
 
 const World = (props: WorldProps) => (
-  <div style={{ border: "1px solid blue" }}>
+  <div style={{ border: "1px solid red", marginTop: "10px" }}>
     <h1>
       Hello World from {props.compiler} and {props.framework}!
     </h1>

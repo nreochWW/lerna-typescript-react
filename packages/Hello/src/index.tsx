@@ -7,7 +7,7 @@ export interface HelloProps {
 }
 
 const Hello = (props: HelloProps) => (
-  <div style={{ border: "1px solid blue" }}>
+  <div style={{ border: "1px solid blue", padding: "10px" }}>
     <h1>
       Hello World from {props.compiler} and {props.framework}!
     </h1>
