@@ -1,6 +1,6 @@
 {
   "name": "world-typescript-react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "lib/index.js",
   "license": "MIT",
   "gitHead": "4874514e1688dd45cf9ba8d87ca1c2638126d6c6",
