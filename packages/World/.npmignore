@@ -1,5 +1,6 @@
 src/
 dist/
 legacy/
+__tests__/
 tsconfig.json
 webpack.config.js

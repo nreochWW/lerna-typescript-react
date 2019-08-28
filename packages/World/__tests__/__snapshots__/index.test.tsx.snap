@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`World package tests matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "border": "1px solid red",
+      "marginTop": "10px",
+    }
+  }
+>
+  <h1>
+    Hello World from 
+    TypeScript
+     and 
+    React
+    !
+  </h1>
+</div>
+`;
