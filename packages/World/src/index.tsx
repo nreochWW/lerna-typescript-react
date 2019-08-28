@@ -7,7 +7,7 @@ export interface WorldProps {
 
 const World = (props: WorldProps) => (
   <h1>
-    World from {props.compiler} and {props.framework}!
+    Hello World from {props.compiler} and {props.framework}!
   </h1>
 );
 
