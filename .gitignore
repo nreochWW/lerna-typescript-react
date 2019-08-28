@@ -1,5 +1,3 @@
 node_modules
-dist
 packages/*/lib
 packages/*/legacy/dist
-packages/*/__tests/__snapshots__
