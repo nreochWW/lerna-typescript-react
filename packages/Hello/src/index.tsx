@@ -7,10 +7,12 @@ export interface HelloProps {
 }
 
 const Hello = (props: HelloProps) => (
-  <h1>
-    Hello World from {props.compiler} and {props.framework}!
+  <div style={{ border: "1px solid blue" }}>
+    <h1>
+      Hello World from {props.compiler} and {props.framework}!
+    </h1>
     <World compiler="TypeScript" framework="React" />
-  </h1>
+  </div>
 );
 
 export default Hello;
