@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "lint": "tslint 'packages/**/*.ts{,x}'",
     "test": "jest",
     "tsc": "lerna run tsc",
     "publish": "lerna publish",
@@ -20,6 +21,8 @@
     "lerna": "^3.16.4",
     "ts-jest": "^24.0.2",
     "ts-loader": "^6.0.4",
+    "tslint": "^5.19.0",
+    "tslint-react": "^4.0.0",
     "typescript": "^3.5.3",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.7"
