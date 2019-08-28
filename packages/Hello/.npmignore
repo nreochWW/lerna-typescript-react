@@ -1,6 +1,5 @@
 src/
 dist/
 legacy/
-README.md
 tsconfig.json
 webpack.config.js

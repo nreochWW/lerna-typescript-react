@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
   mode: "production",
   entry: {
-    world: path.join(__dirname, "legacy", "index.tsx")
+    world: path.join(__dirname, "index.tsx")
   },
   output: {
     filename: "[name].js",
@@ -16,7 +16,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.ts(x?)$/,
+        test: /\.tsx?$/,
         exclude: /node_modules/,
         use: [
           {

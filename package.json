@@ -4,10 +4,11 @@
   "scripts": {
     "tsc": "lerna run tsc",
     "publish": "lerna publish",
-    "build": "lerna run build"
+    "legacy": "lerna run legacy"
   },
   "devDependencies": {
     "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
     "lerna": "^3.16.4",
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
