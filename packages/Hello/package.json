@@ -7,5 +7,8 @@
   "scripts": {
     "tsc": "tsc",
     "build": "webpack"
+  },
+  "dependencies": {
+    "world-typescript-react": "^0.0.5"
   }
 }
