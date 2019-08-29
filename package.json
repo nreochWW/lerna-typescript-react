@@ -11,7 +11,11 @@
     "publish": "lerna publish",
     "legacy": "lerna run legacy",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build:storybook": "build-storybook",
+    "clean": "run-p clean:storybook clean:legacy clean:tsc",
+    "clean:storybook": "rimraf storybook-static",
+    "clean:legacy": "rimraf packages/*/legacy/dist/*",
+    "clean:tsc": "rimraf packages/*/lib/*"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -35,6 +39,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^1.18.2",
     "react-docgen-typescript-loader": "^3.1.1",
+    "rimraf": "^3.0.0",
     "stylelint": "^10.1.0",
     "stylelint-config-standard": "^18.3.0",
     "stylelint-config-styled-components": "^0.1.1",
