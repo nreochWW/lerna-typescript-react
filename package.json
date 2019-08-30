@@ -9,7 +9,6 @@
     "test": "jest",
     "tsc": "lerna run tsc",
     "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish",
     "legacy": "lerna run legacy",
     "storybook": "start-storybook -p 6006 -c .storybook",
     "build:storybook": "build-storybook",
