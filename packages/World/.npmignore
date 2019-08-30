@@ -2,5 +2,6 @@ src/
 dist/
 legacy/
 __tests__/
+stories/
 tsconfig.json
 webpack.config.js

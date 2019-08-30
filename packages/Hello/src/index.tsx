@@ -18,6 +18,7 @@ const Hello = (props: HelloProps) => (
       Hello World from {props.compiler} and {props.framework}!
     </h1>
     <World compiler="TypeScript" framework="React" />
+    <p>This is a change</p>
   </Wrapper>
 );
 

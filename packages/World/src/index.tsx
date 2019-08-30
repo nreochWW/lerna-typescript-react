@@ -16,6 +16,7 @@ const World = (props: WorldProps) => (
     <h1>
       Hello World from {props.compiler} and {props.framework}!
     </h1>
+    <p>This is a change</p>
   </Wrapper>
 );
 
