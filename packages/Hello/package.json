@@ -1,6 +1,6 @@
 {
   "name": "hello-typescript-react",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
   "gitHead": "4874514e1688dd45cf9ba8d87ca1c2638126d6c6",
@@ -9,6 +9,6 @@
     "legacy": "webpack --config legacy/webpack.config.js"
   },
   "dependencies": {
-    "world-typescript-react": "^0.0.9"
+    "world-typescript-react": "^0.1.0"
   }
 }
