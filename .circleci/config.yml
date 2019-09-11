@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  install:
+  build:
     docker:
       - image: circleci/node:10.15-jessie
     steps:
