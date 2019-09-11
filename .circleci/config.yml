@@ -9,8 +9,11 @@ jobs:
           name: Install
           command: yarn install
       - run:
-          name: Format
-          command: yarn prettier
+          name: check
+          command: ls -la
+      - run:
+          name: check2
+          command: yarn list
 #       - run:
 #           name: Lint
 #           command: yarn lint
