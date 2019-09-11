@@ -19,7 +19,7 @@ jobs:
             - ~/.cache/yarn
       - run:
           name: Format
-          run: yarn prettier
+          command: yarn prettier
 #   test:
 #     docker:
 #       - image: circleci/node:10.15-jessie
