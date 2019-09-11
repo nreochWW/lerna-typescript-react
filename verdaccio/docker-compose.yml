@@ -7,8 +7,8 @@ services:
     ports:
       - "4873:4873"
     volumes:
-      - "./storage:/verdaccio/storage"
-      - "./conf:/verdaccio/conf"
+      - "./verdaccio/storage:/verdaccio/storage"
+      - "./verdaccio/conf:/verdaccio/conf"
     networks:
       - docker-network
 
