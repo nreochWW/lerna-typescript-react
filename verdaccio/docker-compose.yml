@@ -1,0 +1,17 @@
+version: "3.1"
+services:
+  verdaccio:
+    container_name: "verdaccio"
+    image: verdaccio/verdaccio:3.0.0
+    restart: always
+    ports:
+      - "4873:4873"
+    volumes:
+      - "./storage:/verdaccio/storage"
+      - "./conf:/verdaccio/conf"
+    networks:
+      - docker-network
+
+networks:
+  docker-network:
+    driver: bridge
