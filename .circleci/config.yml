@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  lint:
+  install:
     docker:
       - image: circleci/node:10.15-jessie
     steps:
@@ -8,29 +8,29 @@ jobs:
       - run:
           name: Install
           command: yarn install
-      - run:
-          name: Format
-          command: yarn prettier
-      - run:
-          name: Lint
-          command: yarn lint
-  test:
-    docker:
-      - image: circleci/node:10.15-jessie
-    steps:
-      - checkout
-      - run:
-          name: Test
-          command: yarn test
+#       - run:
+#           name: Format
+#           command: yarn prettier
+#       - run:
+#           name: Lint
+#           command: yarn lint
+#   test:
+#     docker:
+#       - image: circleci/node:10.15-jessie
+#     steps:
+#       - checkout
+#       - run:
+#           name: Test
+#           command: yarn test
 
-workflows:
-  version: 2
-  lint_and_test:
-    jobs:
-      - lint
-      - test:
-          requires:
-            - lint
-          filters:
-            branches:
-              only: master
+# workflows:
+#   version: 2
+#   lint_and_test:
+#     jobs:
+#       - lint
+#       - test:
+#           requires:
+#             - lint
+#           filters:
+#             branches:
+#               only: master
