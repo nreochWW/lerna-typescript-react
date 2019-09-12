@@ -15,7 +15,7 @@
 - **[StyleLint]** - CSS Linter that helps to enforce conventions
 - **[Prettier]** - Opinionated code formatter for Javascript
 - **[Webpack]** - Module bundler for Javascript
--
+- **[Yarn]** - Package Manager
 
 ##### **Note:** This is a reference repository and not to be used directly. We have a Yeoman Generator NPM package which will scaffold this repository and allow you to automate the process of building individual packages. **[Visit]** the Generator repo for instructions on how to use lerna-typescript-react for your projects.
 
@@ -30,4 +30,5 @@
 [stylelint]: https://github.com/stylelint/stylelint
 [prettier]: https://prettier.io/
 [webpack]: https://webpack.js.org/
+[yarn]: https://yarnpkg.com/lang/en/
 [visit]: https://github.com/nreochWW/generator-lerna-typescript-react
