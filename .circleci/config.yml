@@ -21,7 +21,7 @@ jobs:
       - setup_remote_docker
       - run:
           name: Verdaccio
-          command: cd verdaccio && docker-compose up --build
+          command: cd verdaccio && docker-compose up -d
       # Download and cache dependencies
       - restore_cache:
           keys:
