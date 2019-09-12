@@ -1,6 +1,6 @@
 # lerna-typescript-react
 
-##### Monorepo for building re-usable component libraries with React and Typescript. We use [Lerna] which is a deployment tool for serverless monorepos that optimizes the workflow around multi-package repositories with Git and NPM.
+#### Monorepo for building re-usable component libraries with React and Typescript. We use [Lerna] which is a deployment tool for serverless monorepos that optimizes the workflow around multi-package repositories with Git and NPM.
 
 ### Technolgies
 
